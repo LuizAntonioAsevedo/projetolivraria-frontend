@@ -1,5 +1,6 @@
 .home {
   padding: 30px;
+  min-height: calc(100vh - 140px);
 }
 
 .home h1 {
