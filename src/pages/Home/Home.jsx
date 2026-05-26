@@ -1,6 +1,7 @@
 import Header from '../../components/Header'
 import Footer from '../../components/Footer'
-import BookCard from '../../components/BookCard'
+
+import entrada from '../../assets/entrada.jpg'
 
 import './Home.css'
 
@@ -12,10 +13,19 @@ function Home() {
       <main className="home">
         <h1>Bem-vindo à Livraria</h1>
 
-        <div className="books-grid">
-          <BookCard />
-          <BookCard />
-          <BookCard />
+        <div className="home-banner">
+          <img src={entrada} alt="Entrada Livraria" />
+
+          <div className="home-info">
+            <h2>Descubra Novos Livros</h2>
+
+            <p>
+              Explore uma coleção incrível de livros sobre
+              programação, tecnologia, negócios e muito mais.
+            </p>
+
+            <button>Explorar Agora</button>
+          </div>
         </div>
       </main>
 

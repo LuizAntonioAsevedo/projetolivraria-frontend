@@ -1,20 +1,77 @@
 .details {
+  background: #f3f4f6;
+
+  min-height: calc(100vh - 180px);
+
+  padding: 70px 60px;
+}
+
+.details h1 {
+  text-align: center;
+
+  font-size: 55px;
+
+  margin-bottom: 60px;
+}
+
+.details-card {
+  background: white;
+
+  max-width: 1100px;
+
+  margin: 0 auto;
+
+  border-radius: 20px;
+
   padding: 40px;
 
   display: flex;
+
   gap: 40px;
+
   align-items: center;
+
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
 
-.details img {
+.details-card img {
   width: 300px;
+
+  border-radius: 12px;
 }
 
-.details button {
-  background: green;
+.details-info h2 {
+  font-size: 38px;
+
+  margin-bottom: 25px;
+}
+
+.details-info p {
+  font-size: 22px;
+
+  line-height: 1.7;
+
+  margin-bottom: 35px;
+}
+
+.details-info button {
+  background: #2563eb;
+
   color: white;
+
   border: none;
-  padding: 12px 25px;
-  border-radius: 8px;
+
+  padding: 16px 40px;
+
+  border-radius: 12px;
+
+  font-size: 20px;
+
   cursor: pointer;
+
+  transition: 0.3s;
+}
+
+.details-info button:hover {
+  background: #1d4ed8;
 }

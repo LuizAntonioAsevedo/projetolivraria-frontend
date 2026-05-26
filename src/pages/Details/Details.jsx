@@ -1,8 +1,6 @@
 import Header from '../../components/Header'
 import Footer from '../../components/Footer'
 
-import livro from '../../assets/livro1.png'
-
 import './Details.css'
 
 function Details() {
@@ -11,19 +9,24 @@ function Details() {
       <Header />
 
       <main className="details">
-        <img src={livro} alt="Livro" />
+        <h1>Detalhes do Livro</h1>
 
-        <div>
-          <h1>React para Iniciantes</h1>
+        <div className="details-card">
+          <img
+            src="https://images-na.ssl-images-amazon.com/images/I/51gdVAEfPUL.jpg"
+            alt="Livro React"
+          />
 
-          <p>
-            Livro completo para aprender React,
-            componentes, props, estados e rotas.
-          </p>
+          <div className="details-info">
+            <h2>React para Iniciantes</h2>
 
-          <h2>R$ 79,90</h2>
+            <p>
+              Aprenda React do básico ao avançado com exemplos
+              práticos e projetos reais.
+            </p>
 
-          <button>Comprar Agora</button>
+            <button>Comprar Agora</button>
+          </div>
         </div>
       </main>
 

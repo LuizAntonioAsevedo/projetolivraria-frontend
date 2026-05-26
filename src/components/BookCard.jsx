@@ -1,16 +1,14 @@
 import './BookCard.css'
 
-import logo from '../assets/logo.png'
-
-function BookCard() {
+function BookCard({ imagem, titulo, descricao }) {
   return (
     <div className="card">
-      <img src={logo} alt="Livro" />
+      <img src={imagem} alt={titulo} />
 
-      <h2>React para Iniciantes</h2>
+      <h2>{titulo}</h2>
 
       <p>
-        Aprenda React do básico ao avançado com exemplos práticos.
+        {descricao}
       </p>
 
       <button>Comprar</button>
