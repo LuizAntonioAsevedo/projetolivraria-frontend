@@ -1,13 +1,15 @@
 import { Link } from 'react-router-dom'
-import logo from '../assets/logo.png'
 import './Header.css'
+
+import logo from '../assets/logo.png'
 
 function Header() {
   return (
     <header className="header">
       <div className="logo-area">
         <img src={logo} alt="Logo" className="logo" />
-        <h2>Projeto Livraria</h2>
+
+        <h1>Projeto Livraria</h1>
       </div>
 
       <nav>

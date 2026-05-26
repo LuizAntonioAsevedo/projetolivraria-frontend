@@ -1,7 +1,11 @@
 .footer {
-  background: #111827;
+  background: linear-gradient(to right, #020617, #0f172a, #020617);
+
   color: white;
+
   text-align: center;
-  padding: 20px;
-  margin-top: 40px;
+
+  padding: 40px;
+
+  font-size: 24px;
 }
