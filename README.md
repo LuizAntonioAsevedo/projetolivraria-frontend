@@ -1,10 +1,10 @@
-##  Projeto Livraria Frontend
+# Projeto Livraria Frontend
 
 Projeto frontend desenvolvido para fins educacionais, com foco no aprendizado de React, componentização, rotas e estruturação de aplicações web modernas.
 
 ---
 
-#  Tecnologias Utilizadas
+# Tecnologias Utilizadas
 
 - React
 - Vite
@@ -18,7 +18,7 @@ Projeto frontend desenvolvido para fins educacionais, com foco no aprendizado de
 
 ---
 
-#  Estrutura do Projeto
+# Estrutura do Projeto
 
 ```txt
 src
@@ -34,7 +34,7 @@ src
 
 ---
 
-#  Como Executar o Projeto
+# Como Executar o Projeto
 
 ## 1) Instalar o Node.js
 
@@ -87,5 +87,6 @@ Este projeto foi criado para prática e aprendizado de:
 
 Este projeto possui finalidade exclusivamente educacional e foi desenvolvido para estudos de desenvolvimento web frontend utilizando React + Vite.
 
-#   Autor:
-#   Luiz Antônio Asevedo
+# Autor
+
+# Luiz Antônio Asevedo
