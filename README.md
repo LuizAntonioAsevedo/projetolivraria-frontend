@@ -79,3 +79,10 @@ Este projeto foi desenvolvido exclusivamente para estudos e prática de desenvol
 ## Autor
 
 Luiz Antônio Asevedo
+## Objetivo
+
+Este projeto foi desenvolvido exclusivamente para estudos e prática de desenvolvimento Frontend utilizando React.
+
+## Autor
+
+Luiz Antônio Asevedo
