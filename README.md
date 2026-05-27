@@ -1,92 +1,81 @@
-# Projeto Livraria Frontend
+#  Projeto Livraria
 
-Projeto frontend desenvolvido para fins educacionais, com foco no aprendizado de React, componentização, rotas e estruturação de aplicações web modernas.
+Projeto Frontend desenvolvido com React + Vite para fins educacionais, simulando uma livraria virtual moderna com navegação entre páginas, categorias de livros e layout responsivo.
 
 ---
 
-# Tecnologias Utilizadas
+#  Tecnologias Utilizadas
 
 - React
 - Vite
 - React Router DOM
 - JavaScript
-- HTML5
 - CSS3
-- VS Code
-- Node.js
-- npm
+- HTML5
+- Git e GitHub
 
 ---
 
-# Estrutura do Projeto
+#  Funcionalidades
 
-```txt
+✅ Página Home  
+✅ Página Detalhes  
+✅ Página Categoria  
+✅ Página Login  
+✅ Navegação entre páginas  
+✅ Layout responsivo  
+✅ Componentização React  
+✅ Footer fixado corretamente  
+✅ Cards de categorias  
+✅ Imagens locais na pasta assets  
+
+---
+
+#  Preview do Projeto
+
+## Página Inicial
+
+![Home](src/assets/entrada.jpg)
+
+---
+
+## Categoria História
+
+![História](src/assets/historia.jpg)
+
+---
+
+## Categoria Java
+
+![Java](src/assets/java.jpg)
+
+---
+
+## Categoria SQL
+
+![SQL](src/assets/sql.jpg)
+
+---
+
+#  Estrutura do Projeto
+
+```bash
 src
 ├── assets
 ├── components
 ├── pages
 ├── routes
-├── styles
 ├── App.jsx
-├── main.jsx
-└── index.css
-```
+├── main.jsx 
 
----
+## Acesso Local
 
-# Como Executar o Projeto
+Local: http://localhost:5174/
 
-## 1) Instalar o Node.js
+## Objetivo
 
-Baixe e instale o Node.js:
+Este projeto foi desenvolvido exclusivamente para estudos e prática de desenvolvimento Frontend utilizando React.
 
-https://nodejs.org/pt
+## Autor
 
----
-
-## 2) Instalar as Dependências
-
-Abra o terminal na pasta do projeto e execute:
-
-```bash
-npm install
-```
-
----
-
-## 3) Executar o Projeto
-
-```bash
-npm run dev
-```
-
-O terminal exibirá algo parecido com:
-
-```bash
-Local: http://localhost:5173/
-```
-
-Abra o endereço no navegador.
-
----
-
-#  Objetivo do Projeto
-
-Este projeto foi criado para prática e aprendizado de:
-
-- Estruturação de projetos React
-- Componentização
-- Rotas com React Router
-- Organização de pastas
-- Estilização com CSS
-- Desenvolvimento Frontend
-
----
-
-#  Finalidade Educacional
-
-Este projeto possui finalidade exclusivamente educacional e foi desenvolvido para estudos de desenvolvimento web frontend utilizando React + Vite.
-
-# Autor
-
-# Luiz Antônio Asevedo
+Luiz Antônio Asevedo

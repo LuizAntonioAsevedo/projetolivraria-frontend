@@ -13,6 +13,14 @@ function Home() {
       <main className="home">
         <h1>Bem-vindo à Livraria</h1>
 
+        <p className="home-description">
+          A Projeto Livraria é uma livraria virtual desenvolvida para conectar
+          leitores ao universo da tecnologia, programação e conhecimento.
+          Aqui você encontra conteúdos sobre React, Java, SQL, História e muito mais.
+          Nosso objetivo é proporcionar aprendizado, inspiração e acesso
+          a livros de qualidade em um ambiente moderno e intuitivo.
+        </p>
+
         <div className="home-banner">
           <img src={entrada} alt="Entrada Livraria" />
 
