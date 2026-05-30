@@ -1,10 +1,10 @@
-#  Projeto Livraria
+# Future and Knowledge Bookstore
 
 Projeto Frontend desenvolvido com React + Vite para fins educacionais, simulando uma livraria virtual moderna com navegação entre páginas, categorias de livros e layout responsivo.
 
 ---
 
-#  Tecnologias Utilizadas
+# Tecnologias Utilizadas
 
 - React
 - Vite
@@ -16,7 +16,7 @@ Projeto Frontend desenvolvido com React + Vite para fins educacionais, simulando
 
 ---
 
-#  Funcionalidades
+# Funcionalidades
 
 ✅ Página Home  
 ✅ Página Detalhes  
@@ -31,7 +31,7 @@ Projeto Frontend desenvolvido com React + Vite para fins educacionais, simulando
 
 ---
 
-#  Preview do Projeto
+# Preview do Projeto
 
 ## Página Inicial
 
@@ -57,7 +57,7 @@ Projeto Frontend desenvolvido com React + Vite para fins educacionais, simulando
 
 ---
 
-#  Estrutura do Projeto
+# Estrutura do Projeto
 
 ```bash
 src
@@ -79,10 +79,6 @@ Este projeto foi desenvolvido exclusivamente para estudos e prática de desenvol
 ## Autor
 
 Luiz Antônio Asevedo
-## Objetivo
 
-Este projeto foi desenvolvido exclusivamente para estudos e prática de desenvolvimento Frontend utilizando React.
 
-## Autor
 
-Luiz Antônio Asevedo

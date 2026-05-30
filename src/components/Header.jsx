@@ -9,7 +9,7 @@ function Header() {
       <div className="logo-area">
         <img src={logo} alt="Logo" className="logo" />
 
-        <h1>Projeto Livraria</h1>
+        <h1>Future and Knowledge Bookstore</h1>
       </div>
 
       <nav>
