@@ -1,51 +1,47 @@
 .header {
-  background: linear-gradient(to right, #020617, #0f172a, #020617);
-
-  color: white;
-
   display: flex;
-
   justify-content: space-between;
-
   align-items: center;
-
-  padding: 25px 40px;
+  padding: 15px 40px;
+  background: linear-gradient(90deg, #001845, #003566);
 }
 
-.logo-area {
+.logo-container {
   display: flex;
-
   align-items: center;
-
   gap: 15px;
 }
 
 .logo {
-  width: 60px;
+  width: 70px;
+  height: auto;
+  object-fit: contain;
 }
 
-.logo-area h1 {
-  font-size: 28px;
+.title-container h1 {
+  margin: 0;
+  color: white;
+  font-size: 2rem;
+}
+
+.slogan {
+  margin: 0;
+  color: #d6d6d6;
+  font-size: 0.9rem;
 }
 
 nav {
   display: flex;
-
-  gap: 35px;
+  gap: 30px;
 }
 
 nav a {
   color: white;
-
   text-decoration: none;
-
-  font-size: 22px;
-
+  font-size: 1.1rem;
   font-weight: bold;
-
-  transition: 0.3s;
 }
 
 nav a:hover {
-  color: #60a5fa;
+  color: #ffd60a;
 }
