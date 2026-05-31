@@ -70,7 +70,7 @@ src
 
 ## Acesso Local
 
-Local: http://localhost:5174/
+Local: http://localhost:5173/
 
 ## Objetivo
 
