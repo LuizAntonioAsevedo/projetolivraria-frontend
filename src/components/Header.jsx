@@ -14,6 +14,7 @@ function Header() {
 
         <div className="title-container">
           <h1>Future and Knowledge Bookstore</h1>
+
           <p className="slogan">
             Explore o conhecimento através da leitura
           </p>
@@ -25,7 +26,7 @@ function Header() {
 
         <Link to="/categoria">Categoria</Link>
 
-        <Link to="/details">Detalhes</Link>
+        <Link to="/detalhes">Detalhes</Link>
 
         <Link to="/login">Login</Link>
       </nav>
