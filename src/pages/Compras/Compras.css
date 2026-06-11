@@ -1,0 +1,167 @@
+.compras-page {
+  padding: 40px 60px;
+  background: #f3f4f6;
+  min-height: calc(100vh - 180px);
+}
+
+.compras-hero {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 30px;
+}
+
+.compras-hero span {
+  color: #2563eb;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.compras-hero h1 {
+  font-size: 3rem;
+  margin: 0;
+  color: #0f172a;
+}
+
+.compras-hero p {
+  max-width: 720px;
+  color: #475569;
+  font-size: 1.05rem;
+  line-height: 1.8;
+}
+
+.compras-layout {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 28px;
+}
+
+.compras-items {
+  background: white;
+  border-radius: 24px;
+  padding: 28px;
+  box-shadow: 0 10px 30px rgba(15, 23, 42, 0.08);
+}
+
+.compras-items h2 {
+  margin-top: 0;
+  color: #0f172a;
+}
+
+.compras-item {
+  display: flex;
+  gap: 20px;
+  border-bottom: 1px solid #e2e8f0;
+  padding: 18px 0;
+}
+
+.compras-item:last-child {
+  border-bottom: none;
+}
+
+.compras-item img {
+  width: 120px;
+  border-radius: 18px;
+  object-fit: cover;
+}
+
+.compras-item-info h3 {
+  margin: 0;
+  font-size: 1.1rem;
+}
+
+.compras-item-info span {
+  display: block;
+  color: #64748b;
+  margin: 8px 0;
+}
+
+.compras-item-info strong {
+  display: block;
+  color: #0f172a;
+}
+
+.compras-quantity {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  margin: 12px 0;
+}
+
+.compras-quantity button {
+  width: 34px;
+  height: 34px;
+  border: 1px solid #cbd5e1;
+  background: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.compras-remove {
+  background: transparent;
+  border: none;
+  color: #ef4444;
+  cursor: pointer;
+  font-weight: 600;
+  padding: 0;
+}
+
+.compras-summary {
+  background: white;
+  border-radius: 24px;
+  padding: 28px;
+  box-shadow: 0 10px 30px rgba(15, 23, 42, 0.08);
+}
+
+.compras-summary h2 {
+  margin-top: 0;
+}
+
+.compras-summary-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 24px;
+  color: #0f172a;
+}
+
+.compras-form input {
+  width: 100%;
+  border: 1px solid #cbd5e1;
+  border-radius: 14px;
+  padding: 14px 18px;
+  margin-bottom: 16px;
+}
+
+.compras-form button {
+  width: 100%;
+  padding: 16px 18px;
+  border: none;
+  border-radius: 14px;
+  background: #2563eb;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.compras-error {
+  color: #b91c1c;
+  margin-bottom: 16px;
+}
+
+.compras-success {
+  color: #15803d;
+  margin-bottom: 16px;
+}
+
+@media (max-width: 980px) {
+  .compras-layout {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 720px) {
+  .compras-page {
+    padding: 24px 18px;
+  }
+}

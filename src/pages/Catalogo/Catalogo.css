@@ -1,0 +1,124 @@
+.catalogo-page {
+  padding: 40px 60px;
+  background: #f3f4f6;
+  min-height: calc(100vh - 180px);
+}
+
+.catalogo-hero {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 30px;
+}
+
+.catalogo-hero span {
+  color: #2563eb;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.catalogo-hero h1 {
+  font-size: 3rem;
+  margin: 0;
+  color: #0f172a;
+}
+
+.catalogo-hero p {
+  max-width: 720px;
+  color: #475569;
+  font-size: 1.05rem;
+  line-height: 1.8;
+}
+
+.catalogo-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.catalogo-search input,
+.catalogo-filters select {
+  border: 1px solid #cbd5e1;
+  border-radius: 12px;
+  padding: 14px 18px;
+  font-size: 1rem;
+  width: 240px;
+  background: white;
+}
+
+.catalogo-grid {
+  display: grid;
+  gap: 24px;
+  grid-template-columns: repeat(4, minmax(220px, 1fr));
+}
+
+.catalogo-message,
+.catalogo-error {
+  width: 100%;
+  grid-column: 1 / -1;
+  text-align: center;
+  font-size: 1.1rem;
+  color: #334155;
+}
+
+.catalogo-error {
+  color: #b91c1c;
+}
+
+.catalogo-pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  margin-top: 40px;
+}
+
+.catalogo-pagination button {
+  background: #2563eb;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.catalogo-pagination button:disabled {
+  background: #94a3b8;
+  cursor: not-allowed;
+}
+
+.catalogo-pagination span {
+  color: #334155;
+  font-weight: 600;
+}
+
+@media (max-width: 980px) {
+  .catalogo-grid {
+    grid-template-columns: repeat(2, minmax(220px, 1fr));
+  }
+}
+
+@media (max-width: 720px) {
+  .catalogo-page {
+    padding: 24px 18px;
+  }
+
+  .catalogo-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .catalogo-controls {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .catalogo-search input,
+  .catalogo-filters select {
+    width: 100%;
+  }
+}
