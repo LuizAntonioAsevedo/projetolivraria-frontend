@@ -34,26 +34,26 @@ Projeto Frontend desenvolvido com React + Vite para fins educacionais, simulando
 # Preview do Projeto
 
 ## Página Inicial
+![preview](./src/screenshots/preview.png)
 
-![Home](src/assets/entrada.jpg)
+
 
 ---
 
 ## Categoria História
 
-![História](src/assets/historia.jpg)
+
 
 ---
 
 ## Categoria Java
 
-![Java](src/assets/java.jpg)
 
 ---
 
 ## Categoria SQL
 
-![SQL](src/assets/sql.jpg)
+
 
 ---
 
